@@ -1,0 +1,70 @@
+
+
+:root{
+    --teksti: #2b2a2a;
+    --tausta: #faf6f6;
+}
+
+
+
+
+
+
+
+
+
+nav a{
+    color: var(--teksti);
+    font-size: 1.2em;
+    border: 1px solid var(--teksti);    
+    padding: 0.8em;
+    background-color: rgb(154, 207, 154);
+    text-decoration: none;   
+    width: 100%;
+    
+    
+}
+
+nav a:hover{
+    background-color: rgb(214, 156, 47);
+}
+
+
+
+.active{
+    background-color: rgb(214, 100, 47);
+    
+}
+
+table {    
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;    
+    padding: 8px;
+  }
+  
+  
+  tr:nth-child(odd) {
+    background-color: #eeeaea;
+  }
+
+  .vali{
+      height: 50%;
+  }
+
+  .otsikko{
+      background-color: var(--tausta);
+      text-align: center;
+  }
+
+  .alaotsikko{
+    white-space: nowrap;
+  }
+
+  
+
+  
